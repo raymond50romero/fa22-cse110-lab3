@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Meeting Minutes</title>
+        <meta name="keywords" content="HTML">
+        <meta name="description" content="My implementation of Meeting minutes web page">
+        <meta name="author" content="Raymond Romero">
+        <link rel="icon" type="image/x-icon" href="favicon32X32.png">
+    </head>
+    <body>
+    <main>
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/University_of_California%2C_San_Diego_seal.svg/1200px-University_of_California%2C_San_Diego_seal.svg.png" alt="UCSD seal" width="300" height="300">
+        <header>
+            <h1>First <br> team <br> meeting</h1>
+            <p>All of the notes and topics of our first meeting will be here</p>
+            <h2>Date: </h2> 
+            <h3>October 3rd, 2022</h3>
+        </header>
+
+        <hr>
+
+        <h3>Topics</h3>
+        <nav>
+            <ol>
+                <li>Getting to know each other</li>
+                <ul>
+                    <li>Major</li>
+                    <li>What year are we</li>
+                    <li>Hobbies</li>
+                </ul>
+                <li>Talking about the technoligies we know</li>
+                <ul>
+                    <li>Java</li>
+                    <li>C/C++</li>
+                    <li>Python</li>
+                    <p>etc...</p>
+                </ul>
+                <li>Going over the project</li>
+                <ul>
+                    <li>Tech stack we will most likely use</li>
+                    <li>What we think the topic will be on</li>
+                </ul>
+            </ol>
+        </nav>
+
+        <hr>
+
+
+        <h2>Attendance</h2>
+        <ul>
+            <li>All members of the group was able to attend</li>
+        </ul>
+
+        <hr>
+
+        <div>
+            <h3>Future Plans</h3>
+            <p><span style="color:blue">meet up again <strong> <em>after</em> </strong> classes and <b> <i>talk</i> </b> more about our work</span></p>
+        </div>
+    </main>
+
+        <hr>
+
+        <form>
+            <h3>input your information</h3>
+            <fieldset>
+                <label for="fname">Name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <p>Are you a student?</p>
+                <label>Yes</label>
+                <input type="radio" name="student"> 
+                <label>No</label>
+                <input type="radio" name="student">
+                <p>Birthday</p>
+                <input type="date">
+                <p>What are your hobbies?</p>
+                <textarea name="hobbies" cols="30" rows="10"></textarea>
+
+                <hr>
+
+                <label for="language">What is your favorite language?</label>
+                <input list="languages" name="language" id="language">
+                <datalist id="languages">
+                    <option value="C/C++"></option>
+                    <option value="Python"></option>
+                    <option value="Java"></option>
+                    <option value="JavaScript"></option>
+                </datalist>        
+
+                <hr>
+
+                <label for="college">What college are you in?</label>
+                <select name="college" id="college">
+                    <option value="Warren">Warren</option>
+                    <option value="ERC">ERC</option>
+                    <option value="Roosevelt">Roosevelt</option>
+                    <option value="Muir">Muir</option>
+                    <option value="Marshall">Marshall</option>
+                    <option value="Sixth">Sixth</option>
+                    <option value="Seventh">Seventh</option>
+                </select>
+
+                <button type="button" onclick="alert('Very nice to meet you')">Done</button>
+            </fieldset>
+        </form>
+    </body>
+    <footer>
+        <p>Author: Raymond Romero</p>
+        <p>
+            <a href="raymond50romero@gmail.com">
+                raymond50romero@gmail.com
+            </a>
+        </p>
+        <video src="https://www.youtube.com/watch?v=3goq1T45vyA" width="250" height="250"></video>
+    </footer>
+</html>
