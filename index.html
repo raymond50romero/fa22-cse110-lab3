@@ -5,14 +5,15 @@
         <meta name="keywords" content="HTML">
         <meta name="description" content="My implementation of Meeting minutes web page">
         <meta name="author" content="Raymond Romero">
-        <link rel="icon" type="image/x-icon" href="favicon32X32.png">
+        <link rel="icon" type="image/x-icon" href="favicon-32x32.png">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
     <main>
-        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/University_of_California%2C_San_Diego_seal.svg/1200px-University_of_California%2C_San_Diego_seal.svg.png" alt="UCSD seal" width="300" height="300">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/UCSD_Seal.png/600px-UCSD_Seal.png?20160630232458" alt="UCSD seal" id="ucsd">
         <header>
-            <h1>First <br> team <br> meeting</h1>
-            <p>All of the notes and topics of our first meeting will be here</p>
+            <h1 id="mainheader">First <br> team <br> meeting</h1>
+            <p id="description">All of the notes and topics of our first meeting will be here</p>
             <h2>Date: </h2> 
             <h3>October 3rd, 2022</h3>
         </header>
@@ -21,7 +22,7 @@
 
         <h3>Topics</h3>
         <nav>
-            <ol>
+            <ol class="topics">
                 <li>Getting to know each other
                     <ul>
                         <li>Major</li>
@@ -49,7 +50,7 @@
         <hr>
 
 
-        <h2>Attendance</h2>
+        <h3>Attendance</h3>
         <ul>
             <li>All members of the group was able to attend</li>
         </ul>
